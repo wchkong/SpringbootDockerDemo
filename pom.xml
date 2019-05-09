@@ -15,7 +15,7 @@
     </parent>
 
     <properties>
-        <docker.image.prefix>127.0.0.1:5000/SpringbootDockerDemo</docker.image.prefix>
+        <docker.image.prefix>127.0.0.1:5000</docker.image.prefix>
     </properties>
 
     <dependencies>
