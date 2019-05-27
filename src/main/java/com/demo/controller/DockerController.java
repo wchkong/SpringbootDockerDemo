@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DockerController {
     @RequestMapping("/")
     public String index() {
+        int i = 1 / 0;
         return "Hello Docker!";
     }
 }
